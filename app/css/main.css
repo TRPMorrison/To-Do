@@ -1,6 +1,15 @@
-@import "vendor/bourbon/bourbon";
-@import "vendor/neat/neat";
+html {
+  box-sizing: border-box; }
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit; }
 
 body {
-  background-color: #ebded5;
-}
+  background-color: pink; }
+
+.container {
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto; }
