@@ -1,12 +1,138 @@
 @import "bourbon/bourbon";
 @import "neat/neat";
-
 body {
-  background-color: pink;
+    font-size: 13pt;
+    font-family:  Verdana, sans-serif;
+    font-size: .75em;
 }
 
 .container {
-  background-color: white;
-  margin-left: auto;
-  margin-right: auto;
+    margin-left: 300px;
+    width: 70%;
+    height: 100%;
+    background-color: #e4e4e4;
+    position: relative;
+}
+
+#to-do {
+    padding-top: 20px;
+    margin-top: 50px;
+
+}
+
+.fa-plus-square {
+    height: .5em;
+    width: 8em;
+    color: red;
+    font-size: 13pt;
+    font-weight: normal;
+    font-size: 2em;
+    margin-bottom: .9em;
+    color: black;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 2em;
+    margin-bottom: .9em;
+    color: black;
+    margin-left: .9em;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 1.5em;
+    border-top: 1px solid #f3cc0c;
+    margin-top: 2em;
+    padding-top: .2em;
+      margin-left: .9em;
+}
+
+#add-todo {
+    position: absolute;
+    left: -200px;
+    top: 60px;
+}
+
+form p {
+    line-height: 4em;
+}
+
+label {
+    width: 30%;
+    float: left;
+    display: inline-block;
+      margin-left: .9em;
+}
+
+#todo-list,
+#completed-list {
+    margin: 0.5em 0 0 0;
+    padding: 0.2em 0 0 0;
+    list-style-type: none;
+    font-size: 1.5em;
+}
+
+#todo-list li,
+#completed-list li {
+    border: 1px solid #f3cc0c;
+    padding-top: .1em;
+    line-height: 170%;
+    margin-top: .2em;
+    background-color: white;
+}
+
+#todo-list .task,
+#completed-list .task {
+    width: 60%;
+    display: inline-block;
+}
+
+#todo-list .ui-state-highlight,
+#completed-list .ui-state-highlight {
+    height: 30px;
+}
+
+.delete,
+.done {
+    font-size: .9em;
+    display: inline-block;
+    margin: 0.25em 0.2em;
+    cursor: pointer;
+    border-radius: .2em;
+    line-height: 130%;
+    width: 1.2em;
+    height: 1.2em;
+    text-align: center;
+    border: 1px solid #f3cc0c;
+}
+
+.done {
+    float: left;
+    margin-right: 1em;
+    color: white;
+}
+
+.delete {
+    float: right;
+}
+
+.delete:hover {
+    background-color: pink;
+    color: white;
+}
+
+#todo-list .done:hover {
+    background-color: green;
+    color: white;
+}
+
+#completed-list .done {
+    color: orange;
+    border: none;
+    cursor: default;
+}
+
+.ui-effects-transfer {
+    border: 1px dotted black;
 }
