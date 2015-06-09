@@ -1,6 +1,6 @@
 {
   "name": "to-do",
-  "root": "./",
+  "root": "app",
   "clean_urls": true,
   "error_page": "error.html"
 }
