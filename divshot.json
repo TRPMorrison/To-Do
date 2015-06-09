@@ -1,5 +1,5 @@
 {
-  "name": "trini-tiy-todo",
+  "name": "to-do",
   "root": "./",
   "clean_urls": true,
   "error_page": "error.html"
