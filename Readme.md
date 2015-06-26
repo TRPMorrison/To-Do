@@ -1,6 +1,6 @@
 ## Welcome to My Repo
 
-> I am your Readme.md file, you should probably update me.
+> This was created using the Missing Manual 3rd Ed. by David McFarland.  While I understand the tutorial, I don't feel comfortable with understanding all of the JS/jQuery syntax.  When you have a moment, will you walk me through the code?
 
 
 ## Usage
